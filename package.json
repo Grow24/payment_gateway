@@ -1,0 +1,11 @@
+{
+  "name": "pbmp-razorpay",
+  "private": true,
+  "description": "PBMP billing service with Razorpay Standard Checkout in Test Mode.",
+  "scripts": {
+    "test": "npm --prefix server test",
+    "typecheck": "npm --prefix server run typecheck && npm --prefix web run typecheck",
+    "dev:server": "npm --prefix server start",
+    "dev:web": "npm --prefix web run dev"
+  }
+}
